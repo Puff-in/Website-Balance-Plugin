@@ -32,5 +32,3 @@ Once the plugin is running, you can update a user's Shop Balance with a simple c
 
 3.  **Balance Updated:**
     -   A message will appear in the client confirming the success or failure of the command.
-
-Enjoy this simple yet powerful plugin!
