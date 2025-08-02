@@ -1,25 +1,36 @@
 # Atom CMS - Website Balance Plugin
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/your-username/atom-cms-website-balance-plugin)](https://github.com/your-username/atom-cms-website-balance-plugin/releases)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/atom-cms-website-balance-plugin?style=social)](https://github.com/your-username/atom-cms-website-balance-plugin/stargazers)
-[![GitHub license](https://img.shields.io/github/license/your-username/atom-cms-website-balance-plugin)](https://github.com/your-username/atom-cms-website-balance-plugin/blob/main/LICENSE)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Puff-in/Website-Balance-Plugin)](https://github.com/Puff-in/Website-Balance-Plugin/releases)
+[![GitHub stars](https://img.shields.io/github/stars/Puff-in/Website-Balance-Plugin?style=social)](https://github.com/Puff-in/Website-Balance-Plugin/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Puff-in/Website-Balance-Plugin)](https://github.com/Puff-in/Website-Balance-Plugin/blob/main/LICENSE)
 
 ## 📖 Introduction
 
-The **Atom CMS Website Balance Plugin** is a simple and useful plugin to update your users Shop Balance on Atom CMS with a simple command on your Habbo Retro Client.
+The **Atom CMS Website Balance Plugin** is a simple and useful tool to update a user's Shop Balance on Atom CMS directly from your Habbo Retro Client. It's designed specifically for those using Atom CMS with Arcturus Morningstar.
 
 ## 🚀 Installation
 
-1.  **Download the Plugin:** Download the compiled release of the plugin from the [releases page]([https://github.com/your-username/atom-cms-website-balance-plugin/releases](https://github.com/Puff-in/Website-Balance-Plugin/blob/main/target/WebsiteBalanceCommand.jar)).
-2.  **Place in your "Plugins" Folder:** Unzip the downloaded folder and upload its contents to the `plugins` folder located in your emulator. 
-3.  **Reboot your Emulator:** Use the appropriate commands to stop your emulator if it is running, ensure the plugin is in the plugins` folder, and start your emulator back up again.
+1.  **Download the Plugin:** Download the `WebsiteBalanceCommand.jar` file from the [releases page](https://github.com/Puff-in/Website-Balance-Plugin/releases/tag/v1.0.0).
+
+2.  **Place in your "plugins" folder:** Copy the `.jar` file and place it inside the `plugins` folder of your emulator folder.
+
+3.  **Reboot your Emulator:** Restart your emulator to load the new plugin.
 
 ## 🛠️ Usage
 
-Once the plugin is running, you will be able to update a users shop balance with ease!
+Once the plugin is running, you can update a user's Shop Balance with a simple command.
 
-1.  **Update Permissions:** Go to your permissions table, and find the permission cmd_addwebsitebalance and set it to "1" on the ranks you want to be able to use it. Run the :update_permissions command in your client.
-2.  **Command Execution:** To use the command, simply type :addbalance <username> <amount> (replacing the username and amount with your desired inputs). This can be either a positive or negative number. For negative numbers, add a - symbol before the number.
-3.  **Balance Updated:** A message will come up indicating success or failure.
+1.  **Update Permissions:**
+    -   Go to your `permissions` table in the database.
+    -   Find the `cmd_addwebsitebalance` permission and set its value to `1` for the ranks you want to have access to this command.
+    -   Run the `:update_permissions` command in your client to apply the changes.
 
-Enjoy guys! Simple yet useful for those of us using Atom CMS for Arcturus Morningstar.
+2.  **Command Execution:**
+    -   To use the command, simply type `:addbalance <username> <amount>` in your client.
+    -   `<username>` is the username of the user you want to edit.
+    -   `<amount>` is the value to add or subtract. This can be a positive or negative number. For example, use `-50` to subtract 50 USD.
+
+3.  **Balance Updated:**
+    -   A message will appear in the client confirming the success or failure of the command.
+
+Enjoy this simple yet powerful plugin!
